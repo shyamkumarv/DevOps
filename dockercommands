@@ -1,0 +1,26 @@
+Docker info
+docker images
+docker pull ubuntu
+docker run ubuntu
+docker run –name myubuntu ubuntu
+docker run -d --name jenkins -p 8080:8080 jenkins
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+docker ps
+docker ps -a
+docker ps -a -q
+docker rm $(docker ps -a -q) 
+docker stop <CONTAINER ID/cONTAINER NAME>
+docker container rm <CONTAINER ID/ CONTAINER NAME>
+docker rm <CONTAINER ID/ CONTAINER NAME>
+docker rmi <IMAGE ID>
+nano Dockerfile
+  <  FROM UBUNTU
+  echo “hello docker”  >
+docker build .
+Docker run -it –name myubuntu  ubuntu
+docker run –name jenkins -p 8080:8080 -p 50000:50000
+docker run -p 8081:8080 jenkins
+docker run -d -p 8080:80 nginx
+docker exec -it <CONTAINER ID/ CONTAINER NAME> /bin/bash
+docker tag jenkins thexdocker/jenkins
+docker push thexdocker/dockerthing:jenkins
