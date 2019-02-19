@@ -24,3 +24,7 @@ docker run -d -p 8080:80 nginx
 docker exec -it <CONTAINER ID/ CONTAINER NAME> /bin/bash
 docker tag jenkins thexdocker/jenkins
 docker push thexdocker/dockerthing:jenkins
+docker pull thexdocker/dockerthings:jenkins
+docker run -it --name mytomcat tomcat:7 /bin/bash
+
+
