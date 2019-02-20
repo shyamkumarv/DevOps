@@ -1,0 +1,140 @@
+mkdir git
+cd git
+ls -a
+echo “hello git” >>file1
+git status
+git add file1
+git commit -m “commit file1”
+git log -1
+git log –oneline
+git branch
+git branch branch1
+git checkout branch1
+ls
+echo “hello in branch1” >>file2
+git add file2
+git commit -m “commit file2”
+git checkout master
+ls
+git status
+git add file2
+git commit -m “commit file2”
+git checkout master
+ls
+git merge branch1
+ls
+git checkout branch1
+git branch  branch2
+git branch
+cat>>file1
+cat file1
+git status
+git commit -m “commit file1”
+git checkout master
+git merge branch1
+cat file1
+git checkout branch1
+echo “ello v2 in branch1” >>file3
+ls
+git status
+git checkout master
+ls
+git checkout branch2
+ls
+git checkout branch1
+git add .
+git commit -m “commit file3”
+git branch
+gti checkout master
+ls
+cat file2
+cat file1
+git status
+git branch
+ls
+git checkout branch1
+ls
+git checkout branch2
+ls
+echo “hello in branch2” >>file4
+ls
+git checkout master
+ls
+git checkout branch1
+ls
+git checkout master
+ls
+git status
+git add .
+git commit -m “commit file4”
+git checkout branch1
+ls
+git checkout branch2
+ls
+git merge branch1
+ls
+git checkout branch1
+git merge branch2
+git checkout master
+ls
+git merge branch1
+git status
+git remote add origin “https://www.github.com/shyamkumarv/DevOps”
+git push origin master
+git clone “https://www.github.com/shyamkumarv/Devops”
+ls
+cd DevOps
+cd ..
+rm -rf DevOps
+ls
+git pull origin master
+ls
+cat>>filefromhub
+git status
+git commit -a -m “commit filefromhub”
+git status
+nano filefromhub
+git status
+git add filefromhub
+git commit -m “ commit again filefromhub”
+git push origin master
+ls
+git pull origin master
+git status
+ls
+cat filefromhub
+git fetch origin master
+git status
+cat filefromhub
+git pull origin master
+cat filefromhub
+git fetch origin master
+cat filefromhub
+cat>>filefromhub
+cat filefromhub
+git status
+git push origin master
+ls
+cat filefromhub
+git fetch origin master
+git log  - -oneline
+git log -1
+git status
+git pull origin master
+cat filefromhub
+
+(clone command would dump the remote repo itself to local)
+(pull command would dump the files in the remote repo to your local repo)
+(pull command reflects the data even changes made on github)
+(fetch command doen not reflect the data you made on github but only commited data from local repo)
+
+
+
+
+
+
+
+
+
+
+

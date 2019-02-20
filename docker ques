@@ -1,0 +1,86 @@
+what is docker
+What is docker image
+What is docker container
+What is docker hub
+What is Docker Machine?
+How is Docker different from other container technologies?
+What are the components of Docker Architecture and explain?
+What is the advantage of Docker over hypervisors?
+What are the different functionalities and applications of using Docker?
+What is docker swarm
+What are the features of Docker Swarm?
+What is dockerfile used for
+What is the lifecycle of Docker Container?
+Can I use json instead of yaml for my compose file in Docker?
+What is the process for stopping and restarting a Docker container?
+Tell us how you have used Docker in your past position?
+What are the three main steps of Docker Compose?
+What are the main security concerns with Docker based containers?
+How to create Docker container?
+How to stop and restart the Docker container?
+How will you remove an image from Docker?
+How far do Docker containers scale?
+What platforms does Docker run on?
+Do I lose my data when the Docker container exits?
+How will you create a Container in Docker?
+Mention some commonly used Docker command?
+What are Docker Objects?
+What are Docker Namespaces?
+Is Container technology new?
+What are the networks that are available by default?
+What is the use case for Docker?
+What are the main features of Docker-compose?
+How did you become involved with the Docker project?
+Docker is the new craze in virtualization and cloud computing. Why are people so excited about it?
+What, in your opinion, is the most exciting potential use for Docker?
+Do you think open source development has heavily influenced cloud technology development?
+How do you think Docker will change virtualization and cloud environments? Do you think cloud technology has a set trajectory, or is there still room for significant change?
+How do I run multiple copies of a Compose file on the same host?
+What’s the difference between up, run, and start?
+What is the base image required to build a Docker container?
+Should I include my code with COPY/ADD or a volume?
+Do you already have a logging, monitoring, or mature deployment solution?
+Are you operationally prepared to manage multiple languages/libraries/repositories?
+Will cloud automation overtake containerization?
+You say that Ansible can take up to 20x longer to provision, but why?
+How do we share Docker containers with different nodes?
+What are the commands to create a Docker swarm?
+How to run multiple containers using a single service?
+What are the Cloud platforms that support Docker?
+Can we run more than one process in a Docker container?
+What are the objects created by Docker Cloud  in Amazon Web Services (AWS) EC2?
+What are the security benefits of using Container based system?
+How can we check the status of a Container in Docker?
+How does Docker simplify Software Development process?
+What are the popular tasks that you can do with Docker Command line tool?
+How can Docker run on different Linux distributions?
+What is the difference between Add and Copy command in a Dockerfile?
+What is Build cache in Docker?
+What are the most common instructions in Dockerfile?
+What are the different kinds of namespaces available in a Container?
+How will you monitor Docker in production?
+Why Docker compose does not wait for a container to be ready before moving on to
+How will you customize Docker compose file for different environments?
+Can we run multiple apps on one server with Docker?
+Do you think Docker is Application-centric or Machine-centric?
+Can we lose our data when a Docker Container exits?
+Can we run more than one process in a Docker container?
+How will you take backup of Docker container volumes in AWS S3?
+What are the three main steps of Docker Compose?
+What is Pluggable Storage Driver architecture in Docker based containers?
+What are the main features of Docker Hub?
+How can we check the status of a Container in Docker?
+How does Docker simplify Software Development process?
+What is the basic architecture behind Docker?
+What are the popular tasks that you can do with Docker Command line tool?
+What type of applications- Stateless or Stateful are more suitable for Docker Container?
+How can Docker run on different Linux distributions?
+Why do we use Docker on top of a virtual machine?
+How can Docker container share resources?
+What is Docker Entrypoint?
+What is ONBUILD command in Docker?
+What is Build cache in Docker?
+What are the most common instructions in Dockerfile?
+What is the purpose of EXPOSE command in Dockerfile?
+How will you monitor Docker in production?
+How do you scale your Docker containers?
