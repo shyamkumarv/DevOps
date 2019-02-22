@@ -1,0 +1,81 @@
+ifconfig
+ip addr show
+id
+apt-get update && apt-get upgrade
+apt install net-tools
+uname
+uname -v
+uname -r(r meansrecursive-shows version)
+uname -a(a means all-includes kernel version and date time all)
+passwd thex(to change password)
+locate filename(searches all directories and displays the file)
+history
+ls
+ls -l
+ls -r
+ls -R(shows all including sub directories)
+ls -a(shows all hidden files)
+ls -al
+cd .. (/ means user directory)
+cd (without / root directory)
+cd Desktop/
+touch test
+rm test
+mkdir folder
+mkdir /existeddirectory/newdirectory
+mkdir folder1 folder2
+rmdir folder
+man
+cp test /home/
+mv test /home/(move command need sudo power)
+mv test test1(renames)
+du -sh test(to check disk usage by contents on that directory)
+sudo su
+df -h
+df -ah(checking free diskspace)
+chmod 764 test(giving 1 for executable, 2 write, 4 read permissions-which follows admin, group, public) 
+nano file(openes a gui to write)
+cat > file1(creates file1 and gives you to write)(
+it clears the previous data-only text files can be displayed by using cat)
+cat file file1 > newfile(combines content in file and file1 in newfile)
+gedit file(opens the textfile and gives you to edit)
+date
+cal
+exit
+clear
+whoami
+mount cdrom
+eject cdrom
+less filename(displays content line by line)
+|(piping two commands-Ex: ps aux | less)
+bg(shows you background program)
+jobs( shows you what background program happened you are running)
+fg job number(gives you the program running with the specified number)
+gparted(to make changes for disk spaces)
+netstat(to check what ports have been opened via internet)
+netstat -tulpn(shows non-owned processes info)
+ps aux(to check cpu usage for a process)
+ps aux | grep ngnix( cpu usage for a particular process name)
+top(to see cpu usage in detail up to date)
+htop(to see more detaila and search accordingly)
+logname
+sudo halt
+who
+who -b
+w(who is online)
+free
+free -m
+vmstat -t
+vmstat
+top(shows top processes)
+htop(shows porcesses running)
+hostname(displays hostname)
+wget
+rm filename
+sudo rm /var/lib/dpkg/lock
+sudo killall apt apt-get
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+sudo dpkg --configure -a
+

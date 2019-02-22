@@ -27,4 +27,50 @@ python --version
 pip uninstall awscli
 sudo apt-get install python3
 
+kubernets installation:(INSTALL DOCKER PRIOR TO KUBERNETES)
+
+apt-get update && apt-get install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+apt-get update
+apt-get install -y kubelet kubeadm kubectl
+apt-mark hold kubelet kubeadm kubectl
+
+(USE --ignore-preflight-checks) if prompted error after any command (THIS ERROR IS JUST BECAUSE OF LESS CPU CAPACITY..[NEED ATLEAST 2CPUs])
+
+ON MASTER TO CREATE A NETWORK:(THERE ARE NUMBER OF NETWORKS..HERE WE USED WEAVE-NET)
+kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
+
+
+ON MASTER IN KUBERNETES:
+mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+ON NODES: (SOMETHING LIKE THIS)
+kubeadm join 10.0.0.131:6443 --token 6zpot7.p25jgxws5841chis --discovery-token-ca-cert-hash sha256:ffa59c34cfbbb87ad6d73d46d8b41578c3ebcf8e5a6c7089808f791f59b3a4b6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

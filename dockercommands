@@ -17,6 +17,9 @@ nano Dockerfile
   <  FROM UBUNTU
   echo “hello docker”  >
 docker build .
+docker build -t myapache;1.2 .
+docker run myapache:1.1
+docker run -d myaapche:1.1  
 Docker run -it –name myubuntu  ubuntu
 docker run –name jenkins -p 8080:8080 -p 50000:50000
 docker run -p 8081:8080 jenkins
@@ -25,6 +28,21 @@ docker exec -it <CONTAINER ID/ CONTAINER NAME> /bin/bash
 docker tag jenkins thexdocker/jenkins
 docker push thexdocker/dockerthing:jenkins
 docker pull thexdocker/dockerthings:jenkins
-docker run -it --name mytomcat tomcat:7 /bin/bash
+docker run -it --name mytomcat tomcat:7 /bash
+docker logs <CONTAINERID>
+docker stop $(docker ps -a -q)
+docker stop $(docker ps -q)
+docker inspect myjenkins:1.1
+docker rmi $(docker images -q) -f
+docker run -it -v /mymount ubuntu bash
+docker volume prune
+docker swarm init --advertise-addr 10.0.0.71
+docker service create --name apache2 --mode global -d -p 8082:80 httpd
+docker network create -d overlay myoverlay1
+docker network ls
+
+
+
+
 
 
