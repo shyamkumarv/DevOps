@@ -1,0 +1,84 @@
+What is ansible
+Ansible Playbooks vs Roles
+What are the advantages of using Ansible?
+Comapre Ansible VS Puppet
+What’s the Use of Ansible.
+How would you describe yourself in terms of what you do and how you’d like to be remembered?
+Tell us about your software company and what sort of software it produced(s)
+So how does Ansible work? Please explain in detail?
+Do we have any Web Interface/ Rest API etc for this?
+What is Ansible Tower?
+What is continuous delivery
+How do change the documentation and submit it?
+How do you access Shell Environment Variables?
+How can you speed up management inside in EC2?
+How can you disable Cowsay?
+How can you access a list of Ansible_Variables?
+How can you see all the inventory variables that are defined in the host?
+Why don’t you ship in X format?
+What is that Ansible can do?
+Please define what is Ansible Galaxy?
+Do you know what language Ansible is written in?
+Please explain what is Red Hat Ansible?
+Is Ansible an open source tool?
+Why you have to learn Ansible?
+What are Ansible server requirements?
+How can you connect to other devices within Ansible?
+Can you build your own modules with Ansible?
+How can you find information in Ansible?
+What does Fact mean in Ansible?
+What is ask_pass in ansible?
+Explain What is ask_sudo_pass
+Explain what is ask_vault_pass?
+Explain Callback_plugin in Ansible?
+Explain Module utilities in Ansible? 
+Where is the unit testing is available in Ansible?
+Explain in detail about ad-hoc command?
+When should I use {{ }}? Also, how to interpolate variables or dynamic variable names
+How to install Ansible
+How do I generate crypted passwords for the user module?
+By enabling Kerberized SSH, How do I get ansible to reuse connections?
+What is the best way to make content reusable/redistributable?
+How do I see all the inventory vars defined for my host?
+How do I copy files recursively onto a target host?
+What is Ansible Role?
+Difference between the Variable name and Environment Variables.
+What is the way to access shell environment variables in Ansible
+How to access a variable of the first host in a group
+When should you test roles and playbooks
+How to keep secret data in playbooks
+What is the method to check inventory vars defined for the host 
+What is the code you need to write for accessing a variable name?
+Explain how you can disable cowsay
+Explain Ansible facts 
+How do you see all variables for a host?
+Explain modules in ansible
+Discuss method to Create an Empty File with Ansible
+What is Forks in Ansible
+Briefly Explain Pipelining in Ansible
+How can we use controlpersist to speed up ansible deployment?
+Why would you want to disable ansible facts.
+What are ansible strategies?
+How can I set the PATH or any other environment variable for a task or entire playbook?
+How do I handle different machines needing different user accounts or ports to log in with?
+Write a task to create the directory ‘/tmp/new_directory’
+How do you test your Ansible based projects?
+Which Ansible best practices are you familiar with? name at least three
+Write an Ansible Ad-Hoc command to create the file ‘/tmp/info” on all hosts with the content: “The inventory file is in <inventory_file_path> and the inventory groups are <inventory_groups>”
+What is ansible-pull?  How it’s different compared to ansible-playbook?
+You have a list of directories and you want to write a task which will copy the first directory it finds to a remote server
+What is ansible-pull?  How it’s different compared to ansible-playbook?
+What is a dynamic inventory?
+Which conventions are important to follow when writing a new dynamic inventory script?
+Write a role to install Apache
+How would you change the output format of Ansible execution to display only the name of the tasks?
+Write a filter to captialize a string
+How can I set the PATH or any other environment variable for a task or entire playbook?
+How do I get ansible to reuse connections, enable Kerberized SSH, or have Ansible pay attention to my local SSH config file?
+How do I configure a jump host to access servers that I have no direct access to?
+How do I handle python pathing not having a Python 2.X in /usr/bin/python on a remote machine?
+Where does the configuration file live and what can I configure in it?
+How do I see a list of all of the ansible_ variables?
+How do I loop over a list of hosts in a group, inside of a template?
+How do I access a variable name programmatically?
+

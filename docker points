@@ -1,0 +1,3 @@
+UFS or AUFS(augmented union file system)- combination of image and read/write layer in Docker
+docker uses hashing concept-if content is same.. it uses the same image and doesnt create another.
+every RUN command creates one image layer-storage space can be reused or write in one statement if not required of creating multiple image layers
